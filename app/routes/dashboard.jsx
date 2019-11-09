@@ -228,24 +228,24 @@ const dashRoutes = [
         mini: 'P',
         component: SimplePermissions,
       },
-      {
-        path: '/account/advanced',
-        name: <FormattedMessage {...messags.menuAdvancedPermissions} />,
-        mini: 'AP',
-        component: ComplexPermissions,
-      },
-      {
-        path: '/account/linkauth',
-        name: <FormattedMessage {...messags.menuLinkAuth} />,
-        mini: 'LA',
-        component: LinkAuth,
-      },
-      {
-        path: '/account/refund',
-        name: <FormattedMessage {...messags.menuRefundStake} />,
-        mini: 'RS',
-        component: Refund,
-      },
+      // {
+      //   path: '/account/advanced',
+      //   name: <FormattedMessage {...messags.menuAdvancedPermissions} />,
+      //   mini: 'AP',
+      //   component: ComplexPermissions,
+      // },
+      // {
+      //   path: '/account/linkauth',
+      //   name: <FormattedMessage {...messags.menuLinkAuth} />,
+      //   mini: 'LA',
+      //   component: LinkAuth,
+      // },
+      // {
+      //   path: '/account/refund',
+      //   name: <FormattedMessage {...messags.menuRefundStake} />,
+      //   mini: 'RS',
+      //   component: Refund,
+      // },
     ],
   },
   // {
